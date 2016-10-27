@@ -151,6 +151,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
+  padding: 12px;
   color: #0fb6e6;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
@@ -159,6 +160,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #0c90b6;
+}
+.navbar-custom .navbar-brand .navbar-logo {
+  max-height: 100%;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
