@@ -211,6 +211,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
+    padding: 4px;
     font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -226,6 +227,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
+    padding: 10px;
     font-size: 1.5em;
   }
 }
