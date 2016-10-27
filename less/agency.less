@@ -57,6 +57,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @gray-lighter;
 }
 
+.bg-lightest-gray {
+    background-color: @gray-lightest;
+}
+
 .bg-darkest-gray {
     background-color: @gray-darker;
 }
@@ -537,6 +541,9 @@ section#contact {
     .text-danger {
         color: @theme-danger;
     }
+    .form__btn {
+        margin-top: 30px;
+    }
 }
 
 // Footer
@@ -545,15 +552,16 @@ footer {
     padding: 25px 0;
     background-color: @gray-base;
     color: @gray-light;
+    min-height: 80px;
     text-align: center;
     span.copyright {
-        line-height: 40px;
+        line-height: 80px;
         .heading-font;
         text-transform: none;
     }
     img.footer__logo {
-        padding: 7px;
-        max-height:40px;
+        padding: 28px;
+        max-height: 80px;
         max-width: 100%;
     }
 }

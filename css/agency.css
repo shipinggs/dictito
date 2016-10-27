@@ -52,6 +52,9 @@ h6 {
 .bg-light-gray {
   background-color: #999999;
 }
+.bg-lightest-gray {
+  background-color: #f9f9f9;
+}
 .bg-darkest-gray {
   background-color: #222222;
 }
@@ -570,21 +573,25 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
   color: #d233aa;
 }
+section#contact .form__btn {
+  margin-top: 30px;
+}
 footer {
   padding: 25px 0;
   background-color: #000;
   color: #777777;
+  min-height: 80px;
   text-align: center;
 }
 footer span.copyright {
-  line-height: 40px;
+  line-height: 80px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
 footer img.footer__logo {
-  padding: 7px;
-  max-height: 40px;
+  padding: 28px;
+  max-height: 80px;
   max-width: 100%;
 }
 ul.social-buttons {
