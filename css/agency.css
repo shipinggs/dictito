@@ -514,12 +514,12 @@ section h3.section-subheading {
   position: relative;
   padding-bottom: 100%;
   padding-right: 100%;
+  border-radius: 100%;
   overflow: hidden;
 }
 .team-members__member img {
   position: absolute;
   width: 100%;
-  border-radius: 100%;
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
   -o-transition: all 300ms ease-out;
