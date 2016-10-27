@@ -504,18 +504,31 @@ section h3.section-subheading {
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  width: 61.8%;
 }
 .team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: auto;
+  width: 75%;
   text-transform: none;
 }
 .team-member p {
   margin-top: 0;
 }
-aside.clients img {
-  margin: 50px auto;
+@media (min-width: 768px) {
+  .team-container {
+    padding: 0 20px;
+  }
+  .team-member img {
+    margin: 0 auto;
+    width: 71.8%;
+  }
+}
+@media (min-width: 992px) {
+  .team-container {
+    padding: 0 80px;
+  }
 }
 section#contact {
   margin: 0 auto;
