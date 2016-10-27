@@ -1,4 +1,2 @@
 # Dictito
 Speech Feedback
-
-Entrepreneurship
