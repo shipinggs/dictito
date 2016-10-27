@@ -257,19 +257,19 @@ header {
 }
 header .intro-text {
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 70px;
   padding-bottom: 50px;
   max-width: 350px;
 }
 header .intro-text .intro-logo {
-  padding: 32px 0;
-  width: 50%;
+  padding: 28px 0;
+  width: 40%;
   height: auto;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 22px;
   margin-bottom: 25px;
 }
@@ -278,7 +278,7 @@ header .intro-text .intro-heading {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 38px;
-  line-height: 50px;
+  line-height: 38px;
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
@@ -523,7 +523,7 @@ section h3.section-subheading {
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
   -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-ougit;
   transition: all 300ms ease-out;
 }
 .team-members__member .overlay-base .overlay {
