@@ -50,6 +50,9 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
+  background-color: #777777;
+}
+.bg-lighter-gray {
   background-color: #999999;
 }
 .bg-lightest-gray {
@@ -320,9 +323,9 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
+  line-height: 20px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
 }
@@ -330,6 +333,16 @@ section h3.section-subheading {
   section {
     padding: 150px 0;
   }
+}
+.speechbox-one,
+.speechbox-three {
+  padding: 0 80px;
+  color: #f9f9f9;
+  text-align: right;
+}
+.speechbox-two {
+  padding: 0 80px;
+  color: #f9f9f9;
 }
 .timeline {
   list-style: none;
@@ -385,7 +398,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #0fb6e6;
+  background-color: #d233aa;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -426,6 +439,20 @@ section h3.section-subheading {
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
   margin-bottom: 0;
+}
+.timeline .timeline__campaign-link {
+  margin: 8px auto;
+  display: inline-block;
+  padding: 8px 24px;
+  border: 3px #0fb6e6 solid;
+  border-radius: 3px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.timeline .timeline__campaign-link:hover {
+  border: 3px #08809f solid;
+  color: #08809f;
 }
 @media (min-width: 768px) {
   .timeline:before {
@@ -565,7 +592,9 @@ section h3.section-subheading {
   margin-bottom: auto;
 }
 .team-members__member-text p {
-  margin-top: 0;
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 18px;
 }
 @media (min-width: 768px) {
   .team-container {
@@ -581,18 +610,6 @@ section h3.section-subheading {
     margin: 4px 0;
     padding: 0 36px;
     width: 33%;
-  }
-  .team-members__member-text {
-    display: block;
-    padding: 0;
-  }
-  .team-members__member-text h4 {
-    margin-bottom: auto;
-  }
-  .team-members__member-text p {
-    margin-top: 6px;
-    font-size: 14px;
-    line-height: 18px;
   }
 }
 @media (min-width: 992px) {
