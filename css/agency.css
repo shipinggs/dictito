@@ -334,15 +334,25 @@ section h3.section-subheading {
     padding: 150px 0;
   }
 }
-.speechbox-one,
-.speechbox-three {
+.speechbox-one {
+  min-height: 500px;
+  background-image: url('../img/speechbox/speechbox-one.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.speechbox-one-container {
   padding: 0 80px;
   color: #f9f9f9;
   text-align: right;
 }
-.speechbox-two {
+.speechbox-two-container {
   padding: 0 80px;
   color: #f9f9f9;
+}
+.speechbox-three-container {
+  padding: 0 80px;
+  color: #f9f9f9;
+  text-align: right;
 }
 .timeline {
   list-style: none;
