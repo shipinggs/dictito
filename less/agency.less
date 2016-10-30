@@ -378,7 +378,6 @@ section {
     p {
         display: inline-block;
         margin: 0;
-        padding: 0 12px;
         width: 49%;
         .heading-font;
         font-size: 16px;
@@ -394,14 +393,39 @@ section {
     }
 }
 
+.speechbox-three {
+    padding: 40px 0;
+    background-image: url('../img/speechbox/speechbox-three.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
 .speechbox-three-container {
     display: inline-block;
+    margin: 0;
     padding: 0;
-    width: 84%;
+    width: 88%;
     color: @gray-lightest;
     text-align: right;
+    p {
+        display: inline-block;
+        margin: 0;
+        padding: 0 12px;
+        width: 43%;
+        .heading-font;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        text-transform: none;
+        vertical-align: middle;
+    }
+    img {
+        display: inline-block;
+        margin: 0;
+        padding: 0 12px;
+        width: 49%;
+    }
 }
-
 
 @media(min-width:768px) {
     .speechbox-zero {
@@ -432,7 +456,7 @@ section {
     .speechbox-two {
         padding: 90px 0;
     }
-    .speechbox-two-container {
+    .speechbox-two-container, .speechbox-three-container {
         width: 78%;
         p {
             font-size: 28px;
@@ -441,6 +465,16 @@ section {
         img {
             padding: 0 24px;
             width: 49%;
+        }
+    }
+
+    .speechbox-three {
+        padding: 50px 0;
+    }
+    .speechbox-three-container {
+        width: 80%;
+        img {
+            padding: 60px;
         }
     }
 }
@@ -470,6 +504,20 @@ section {
         img {
             padding: 0 32px;
             width: 49%;
+        }
+    }
+
+    .speechbox-three {
+        padding: 50px 0;
+    }
+    .speechbox-three-container {
+        width: 70%;
+        p {
+            font-size: 32px;
+            line-height: 40px;
+        }
+        img {
+            padding: 80px;
         }
     }
 }
@@ -502,6 +550,15 @@ section {
         img {
             padding: 0 40px;
             width: 49%;
+        }
+    }
+
+    .speechbox-three {
+        padding: 50px 0;
+    }
+    .speechbox-three-container {
+        img {
+            padding: 100px;
         }
     }
 
@@ -567,7 +624,7 @@ section {
             border: 7px solid #f1f1f1;
             text-align: center;
             h4 {
-                font-size: 10px;
+                font-size: 9px;
                 margin-top: 12px;
                 line-height: 14px;
             }
@@ -644,7 +701,7 @@ section {
                 left: 50%;
                 margin-left: -50px;
                 h4 {
-                    font-size: 13px;
+                    font-size: 12px;
                     margin-top: 16px;
                     line-height: 18px;
                 }
@@ -670,7 +727,7 @@ section {
                 height: 150px;
                 margin-left: -75px;
                 h4 {
-                    font-size: 18px;
+                    font-size: 16px;
                     margin-top: 30px;
                     line-height: 26px;
                 }

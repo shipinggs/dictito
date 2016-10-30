@@ -424,7 +424,6 @@ section h3.section-subheading {
 .speechbox-two-container p {
   display: inline-block;
   margin: 0;
-  padding: 0 12px;
   width: 49%;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -439,12 +438,39 @@ section h3.section-subheading {
   padding: 0 12px;
   width: 49%;
 }
+.speechbox-three {
+  padding: 40px 0;
+  background-image: url('../img/speechbox/speechbox-three.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
 .speechbox-three-container {
   display: inline-block;
+  margin: 0;
   padding: 0;
-  width: 84%;
+  width: 88%;
   color: #f9f9f9;
   text-align: right;
+}
+.speechbox-three-container p {
+  display: inline-block;
+  margin: 0;
+  padding: 0 12px;
+  width: 43%;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  vertical-align: middle;
+}
+.speechbox-three-container img {
+  display: inline-block;
+  margin: 0;
+  padding: 0 12px;
+  width: 49%;
 }
 @media (min-width: 768px) {
   .speechbox-zero {
@@ -472,16 +498,28 @@ section h3.section-subheading {
   .speechbox-two {
     padding: 90px 0;
   }
-  .speechbox-two-container {
+  .speechbox-two-container,
+  .speechbox-three-container {
     width: 78%;
   }
-  .speechbox-two-container p {
+  .speechbox-two-container p,
+  .speechbox-three-container p {
     font-size: 28px;
     line-height: 36px;
   }
-  .speechbox-two-container img {
+  .speechbox-two-container img,
+  .speechbox-three-container img {
     padding: 0 24px;
     width: 49%;
+  }
+  .speechbox-three {
+    padding: 50px 0;
+  }
+  .speechbox-three-container {
+    width: 80%;
+  }
+  .speechbox-three-container img {
+    padding: 60px;
   }
 }
 @media (min-width: 992px) {
@@ -509,6 +547,19 @@ section h3.section-subheading {
   .speechbox-two-container img {
     padding: 0 32px;
     width: 49%;
+  }
+  .speechbox-three {
+    padding: 50px 0;
+  }
+  .speechbox-three-container {
+    width: 70%;
+  }
+  .speechbox-three-container p {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .speechbox-three-container img {
+    padding: 80px;
   }
 }
 @media (min-width: 1200px) {
@@ -539,6 +590,12 @@ section h3.section-subheading {
   .speechbox-two-container img {
     padding: 0 40px;
     width: 49%;
+  }
+  .speechbox-three {
+    padding: 50px 0;
+  }
+  .speechbox-three-container img {
+    padding: 100px;
   }
 }
 .timeline {
@@ -602,7 +659,7 @@ section h3.section-subheading {
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
+  font-size: 9px;
   margin-top: 12px;
   line-height: 14px;
 }
@@ -672,7 +729,7 @@ section h3.section-subheading {
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 16px;
     line-height: 18px;
   }
@@ -695,7 +752,7 @@ section h3.section-subheading {
     margin-left: -75px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 30px;
     line-height: 26px;
   }
