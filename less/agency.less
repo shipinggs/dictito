@@ -318,6 +318,22 @@ section {
         margin: 24px 0 0 0;
         font-size: 13px;
         font-weight: lighter;
+        letter-spacing: 0.03em;
+    }
+    .speechbox__campaign-link {
+        margin: 24px auto;
+        display: inline-block;
+        padding: 14px 24px;
+        border: 3px @theme-danger-secondary solid;
+        border-radius: 3px;
+        color: @theme-danger-secondary;
+        .heading-font;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .speechbox__campaign-link:hover {
+        border: 3px @theme-danger solid;
+        color: @theme-danger;
     }
 }
 .speechbox-one {
@@ -354,7 +370,7 @@ section {
         width: 66%;
         max-width: 610px;
         p {
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 }
