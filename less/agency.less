@@ -363,13 +363,41 @@ section {
     }
 }
 
+.speechbox-two {
+    padding: 40px 0;
+    text-align: center;
+}
+
 .speechbox-two-container {
-    padding: 0 80px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 88%;
     color: @gray-lightest;
+    text-align: center;
+    p {
+        display: inline-block;
+        margin: 0;
+        padding: 0 12px;
+        width: 49%;
+        .heading-font;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: none;
+        vertical-align: middle;
+    }
+    img {
+        display: inline-block;
+        margin: 0;
+        padding: 0 12px;
+        width: 49%;
+    }
 }
 
 .speechbox-three-container {
-    padding: 0 80px;
+    display: inline-block;
+    padding: 0;
+    width: 84%;
     color: @gray-lightest;
     text-align: right;
 }
@@ -400,6 +428,21 @@ section {
             line-height: 48px;
         }
     }
+
+    .speechbox-two {
+        padding: 90px 0;
+    }
+    .speechbox-two-container {
+        width: 78%;
+        p {
+            font-size: 28px;
+            line-height: 36px;
+        }
+        img {
+            padding: 0 24px;
+            width: 49%;
+        }
+    }
 }
 
 @media(min-width:992px) {
@@ -412,6 +455,21 @@ section {
         p {
             font-size: 28px;
             line-height: 54px;
+        }
+    }
+
+    .speechbox-two {
+        padding: 110px 0;
+    }
+    .speechbox-two-container {
+        width: 66%;
+        p {
+            font-size: 32px;
+            line-height: 40px;
+        }
+        img {
+            padding: 0 32px;
+            width: 49%;
         }
     }
 }
@@ -431,6 +489,22 @@ section {
             margin-top: 48px;
         }
     }
+
+    .speechbox-two {
+        padding: 120px 0;
+    }
+    .speechbox-two-container {
+        width: 61.8%;
+        p {
+            font-size: 32px;
+            line-height: 40px;
+        }
+        img {
+            padding: 0 40px;
+            width: 49%;
+        }
+    }
+
 }
 
 // Timeline
