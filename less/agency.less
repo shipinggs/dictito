@@ -336,17 +336,31 @@ section {
         color: @theme-danger;
     }
 }
+
 .speechbox-one {
-    min-height: 500px;
+    padding: 40px 0;
+    height: 240px;
     background-image: url('../img/speechbox/speechbox-one.jpg');
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
 .speechbox-one-container {
-    padding: 0 80px;
-    color: @gray-lightest;
-    text-align: right;
+    display: inline-block;
+    padding: 0;
+    width: 84%;
+    text-align: left;
+    p {
+        color: @gray-darker;
+        .heading-font;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: none;
+    }
+    p.speechbox-one__last {
+        font-weight: bold;
+    }
 }
 
 .speechbox-two-container {
@@ -373,8 +387,40 @@ section {
             font-size: 16px;
         }
     }
+
+    .speechbox-one {
+        padding: 90px 0;
+        height: auto;
+        min-height: 500px;
+    }
+    .speechbox-one-container {
+        width: 70%;
+        p {
+            font-size: 26px;
+            line-height: 48px;
+        }
+    }
 }
 
+@media(min-width:992px) {
+    .speechbox-one {
+        padding: 110px 0;
+        min-height: 600px;
+    }
+    .speechbox-one-container {
+        width: 61.8%;
+        p {
+            font-size: 28px;
+            line-height: 54px;
+        }
+    }
+}
+
+@media(min-width:1200px) {
+    .speechbox-one {
+        min-height: 800px;
+    }
+}
 
 // Timeline
 
