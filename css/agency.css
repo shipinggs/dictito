@@ -457,7 +457,18 @@ section h3.section-subheading {
 }
 @media (min-width: 1200px) {
   .speechbox-one {
+    padding: 140px 0;
     min-height: 800px;
+  }
+  .speechbox-one-container {
+    width: 56%;
+  }
+  .speechbox-one-container p {
+    font-size: 36px;
+    line-height: 64px;
+  }
+  .speechbox-one-container p.speechbox-one__last {
+    margin-top: 48px;
   }
 }
 .timeline {
